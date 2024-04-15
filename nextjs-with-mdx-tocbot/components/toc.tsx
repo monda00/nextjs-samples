@@ -9,8 +9,8 @@ function Toc() {
       tocSelector: ".toc",
       contentSelector: ".post",
       headingSelector: "h2, h3",
-      scrollSmoothOffset: -350,
-      headingsOffset: 350,
+      scrollSmoothOffset: -100,
+      headingsOffset: 100,
     });
 
     return () => tocbot.destroy();
